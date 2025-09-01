@@ -88,3 +88,4 @@ stages:
               appType: 'webapp'
               appName: '$(WebAppName)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
+              
